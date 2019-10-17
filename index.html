@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="vendors/css/simple-grid.min.css" rel="stylesheet">
   <link href="src/css/styles.css" rel="stylesheet">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 
@@ -89,7 +89,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-6">
-          <article>
+          <article class="top-article">
             <header>
               <h2> Get early access today</h2>
             </header>
@@ -106,20 +106,51 @@
       </div>
     </div>
   </section>
-  <!-- 
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy -->
-
-  <footer>
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <figure>
+          <img src="/images/logo-white.svg" alt="logo-white">
+        </figure>
+        <img class="icon-small" src="images/icon-phone.svg" alt="phone"><span> Phone: +1-543-123-4567</span>
+        <br>
+        <img class="icon-small" src="images/icon-email.svg" alt="email"><span> example@fylo.com</span>
+      </div>
+      <div class="col-3">
+        <ul class="mt">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Job</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="mt">
+          <li><a href="">Contact us</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="icon mt">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 

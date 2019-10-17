@@ -83,6 +83,11 @@ article {
     margin-top: 6%;
 }
 
+.mt {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
 /*HEADER*/
 .nav-logo {
     width: 8rem;
@@ -199,8 +204,65 @@ hr.line {
     background-color: hsl(238, 22%, 44%);
 }
 
+.signin h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.signin p {
+    color: white;
+}
+
+.signin form {
+    margin-top: 60px;
+}
+
 .signin-form {
     padding: 2% 60% 2% 1%;
     border: transparent;
     margin-bottom: 12px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: hsl(243, 87%, 12%);
+}
+
+footer span {
+    font-size: 0.8rem;
+}
+
+.icon-small {
+    width: 10px;
+}
+
+footer figure img {
+    padding-top: 10%;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+ul.icon li {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+ul.icon li a {
+    display: inline-block;
+    line-height: 1.5;
+    vertical-align: middle;
 }
