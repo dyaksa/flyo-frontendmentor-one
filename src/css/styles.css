@@ -33,6 +33,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    color: white;
 }
 
 body {
@@ -62,6 +63,7 @@ p {
 }
 
 h1,
+h5,
 p {
     color: hsl(243, 87%, 12%);
 }
@@ -71,10 +73,14 @@ p {
 }
 
 .btn {
-    padding: 2% 8% 2% 8%;
+    padding: 2% 6% 2% 6%;
     text-align: center;
     border: transparent;
     border-radius: 2px;
+}
+
+article {
+    margin-top: 6%;
 }
 
 /*HEADER*/
@@ -106,7 +112,6 @@ p {
 
 .top-article {
     padding: 5% 7%;
-    margin-top: 6%;
 }
 
 input.top-input {
@@ -119,4 +124,83 @@ input.top-input {
     background-color: hsl(224, 93%, 58%);
     color: white;
     font-weight: 600;
+}
+
+/*TESTIMONIAL*/
+
+#testimonial {
+    background-color: hsl(240, 75%, 98%);
+    position: relative;
+    margin-top: 15%;
+    padding-bottom: 5%;
+}
+
+#testimonial::before {
+    content: url("/images/bg-curve-desktop.svg");
+    position: absolute;
+    top: -110px;
+}
+
+.testimonial a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: hsl(170, 45%, 43%);
+}
+
+hr.line {
+    border-top: 1px solid hsl(170, 45%, 43%);
+    width: 160px;
+}
+
+.testimonial article p {
+    padding: 0% 10% 0 0;
+}
+
+.narrow {
+    background-position: center;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+}
+
+.box {
+    border-radius: 2px;
+    margin-top: 2rem;
+    width: 400px;
+    height: auto;
+    padding: 5%;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(214, 214, 214, 1);
+    box-shadow: 10px 10px 35px 0px rgba(214, 214, 214, 1);
+}
+
+.box h5 {
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.box blockquote {
+    font-weight: 400;
+    color: hsl(238, 22%, 44%);
+    margin-bottom: 15px;
+}
+
+.box img:first-child {
+    width: 1rem;
+}
+
+/*SIGN IN*/
+#signin {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.signin-form {
+    padding: 2% 60% 2% 1%;
+    border: transparent;
+    margin-bottom: 12px;
 }
